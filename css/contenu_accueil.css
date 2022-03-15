@@ -1,0 +1,93 @@
+.accueil-intro img {
+    width: 60%;
+    /*float: right;*/
+    position: absolute;
+    margin-top: -13vw;
+    right: 7vw;
+    z-index: -1;
+}
+
+h1 {
+    position: relative;
+    margin-left: 12vw;
+}
+
+.accueil-intro .texte-intro {
+    position: absolute;
+    width: 26.6vw;
+    padding: 3.3vw;
+    background-color: #0B0B0B;
+    opacity: 80%;
+    /*backdrop-filter: blur(100px);*/
+    right: 7vw;
+    top: 30vw;
+}
+.accueil-intro .texte-intro p {
+    margin: 0;
+}
+
+
+
+.lien-projets img {
+    width: 65%;
+    margin-left: 20%;
+    margin-top: 21vw;
+}
+.lien-projets .div-lien {
+    width: 20vw;
+    padding: 3vw 3vw 4vw;
+    background-color: #0B0B0B;
+    opacity: 80%;
+    backdrop-filter: blur();
+    margin-top: -42vw;
+    margin-left: 13vw;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 2vw;
+}
+.lien-projets .div-lien p {
+    margin-bottom: 6vw;
+}
+
+
+
+
+
+.lien-a-propos img {
+    width: 26vw;
+    margin-left: 13vw;
+    margin-top: 11vw;
+}
+.lien-a-propos .div-lien {
+    width: 46vw;
+    background-color: #0B0B0B;
+    opacity: 80%;
+    padding: 3vw 4vw 4vw;
+    margin-left: 32vw;
+    margin-top: -27.5vw;
+}
+.lien-a-propos .div-lien p {
+    margin-bottom: 4vw;
+}
+
+
+
+
+
+.lien-contact img {
+    width: 26vw;
+    margin-left: 60vw;
+    margin-top: 11vw;
+}
+.lien-contact .div-lien {
+    width: 46vw;
+    background-color: #0B0B0B;
+    opacity: 80%;
+    padding: 3vw 4vw 4vw;
+    margin-left: 13vw;
+    margin-top: -27.5vw;
+}
+.lien-contact .div-lien p {
+    margin-bottom: 4vw;
+}

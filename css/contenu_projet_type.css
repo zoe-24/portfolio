@@ -1,0 +1,256 @@
+h1, .proj-type-intro p {
+    margin-left: 13vw;
+}
+h1 {
+    margin-top: 9vw;
+    margin-bottom: 3vw;
+}
+h5 {
+    width: fit-content;
+}
+.proj-type-intro p {
+    width: 33vw;
+}
+
+
+.zone-images img {
+    width: 85%;
+}
+.zone-images {
+    margin-top: 9vw;
+    margin-left: 13vw;
+}
+
+
+
+
+.infos-proj {
+    margin-left: 13vw;
+    display: flex;
+}
+.infos-proj>div {
+    margin-right: 6vw;
+}
+
+
+
+
+.explications-proj {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.explications-proj h3 {
+    margin-top: 6vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description, .design-mockup {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+.description:last-of-type {
+    margin-bottom: 8vw;
+}
+
+
+.texte-mockup {
+    width: 70%;
+}
+
+.explications-proj p {
+    text-align: justify;
+}
+
+
+
+.design-mockup {
+    display: flex;
+}
+.design-mockup img {
+    width: 30vw;
+    margin-right: -21vw;
+    margin-bottom: 1vw;
+}
+.design-mockup div h3 {
+    margin-left: 14.5vw;
+}
+.design-mockup p {
+    width: 85%;
+}
+
+
+
+
+
+
+
+
+
+.zone-couleurs img {
+    width: 12vw;
+    margin-right: 3.35vw;
+    margin-left: 3.35vw;
+    margin-bottom: 3vw;
+}
+
+.zone-couleurs {
+    display: flex;
+    align-content: center;
+    width: fit-content;
+    margin: 5vw auto 3vw;
+
+}
+
+.main-vacataires .zone-couleurs img:first-of-type,
+.main-baguettes .zone-couleurs img:first-of-type,
+.main-bugdays .zone-couleurs img:first-of-type {
+    margin-left: 0.5vw;
+}
+
+
+
+.zone-typo {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+.zone-typo img {
+    width: 16vw;
+}
+.zone-typo img:first-of-type {
+    margin-right: 7vw;
+}
+
+
+
+
+
+.img-accueil img {
+    width: 80%;
+}
+.img-accueil {
+    margin-left: 16.5vw;
+}
+
+.mockups img {
+    margin-top: 8vw;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#img_adele, #img_shawn {
+    width: 60%;
+    margin-left: 15vw;
+    margin-top: 8vw;
+}
+.main-adele .infos-proj div,
+.main-shawn .infos-proj div,
+.main-bugdays .infos-proj div,
+.main-artspotting .infos-proj div {
+    margin-right: 10vw;
+}
+.main-adele .design-mockup img,
+.main-baguettes .design-mockup img,
+.main-artspotting .design-mockup img {
+    width: 20vw;
+    margin-top: 5vw;
+}
+.main-adele .zone-couleurs {
+    margin-left: 5.5vw;
+    margin-top: 0;
+}
+.main-adele .zone-typo,
+.main-baguettes .zone-typo,
+.main-shawn .zone-typo,
+.main-bugdays .zone-typo,
+.main-artspotting .zone-typo {
+    margin-bottom: 8vw;
+}
+#logo_bugdays img {
+    width: 80%;
+    margin-left: 5vw;
+}
+#logo_adele,
+#logo_baguettes,
+#logo_shawn,
+#logo_artspotting {
+    display: flex;
+    margin-bottom: 8vw;
+}
+#logo_adele img,
+#logo_baguettes img,
+#logo_shawn img,
+#logo_artspotting img {
+    width: 15vw;
+    height: 15vw;
+    margin-left: -4vw;
+    margin-right: 5vw;
+}
+#logo_adele img,
+#logo_shawn img,
+#logo_artspotting img {
+    margin-left: 0;
+}
+#logo_baguettes .zone-logo {
+    margin-right: -3vw;
+}
+
+
+#logo_baguettes h5 {
+    margin-top: 1vw;
+}
+.main-baguettes .design-mockup img {
+    margin-top: -15vw;
+    height: 100%;
+}
+.main-baguettes .proj-type-intro,
+.main-shawn .proj-type-intro,
+.main-artspotting .proj-type-intro {
+    margin-bottom: 14vw;
+}
+.main-baguettes h1,
+.main-shawn h1,
+.main-artspotting h1 {
+    margin-bottom: 4vw;
+}
+
+
+
+.main-shawn .design-mockup img {
+    height: 100%;
+    margin-top: 9vw;
+}
+.main-shawn .zone-couleurs, .main-artspotting .zone-couleurs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*.main-shawn .zone-couleurs {
+    margin-left: auto;
+    margin-right: auto;
+}
+.no-margin {
+    margin-right: 0px;
+}*/
+
+
+.main-bugdays .design-mockup img {
+    height: 100%;
+    margin-top: 19vw;
+}

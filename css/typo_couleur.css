@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Raleway:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+/* Couleurs */
+
+fond {
+    color: #1E1E1E;
+}
+gradient {
+    color: #0B0B0B;
+}
+rose {
+    color: #F598C5;
+}
+violet{
+    color: #A966D9;
+}
+bleu {
+    color: #94B6EB;
+}
+texte {
+    color: #E9E9E9;
+}
+
+.body-accueil {
+    background: linear-gradient(#0B0B0B 0%, #0B0B0B 19%, #1E1E1E 29%);
+    margin: 0;
+}
+.body-projets {
+    background: linear-gradient(#0B0B0B 0%, #0B0B0B 16%, #1E1E1E 26%);
+    margin: 0;
+}
+.body-contact {
+    background: linear-gradient(#0B0B0B 0%, #0B0B0B 30%, #1E1E1E 44%);
+    margin: 0;
+}
+.body-a-propos {
+    background: linear-gradient(#0B0B0B 0%, #0B0B0B 19%, #1E1E1E 29%);
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#0B0B0B 0%, #0B0B0B 9%, #1E1E1E 12%);
+    margin: 0;
+}
+
+.main-a-propos,
+.main-contact {
+    padding-left: 13vw;
+    padding-right: 13vw;
+}
+
+
+h1,h2, h3, h4, button a/*.bouton-liens-accueil, */ {
+    width: fit-content;
+    background: linear-gradient(70deg, rgba(245,152,197,1) 0%, rgba(169,102,217,1) 70%, rgba(148,182,235,1) 80%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*button {
+    box-shadow: none;
+    background-color: #1E1E1E;
+    border-image: linear-gradient(rgba(245,152,197,1), rgba(169,102,217,1), rgba(148,182,235,1)) 50;
+}*/
+
+.bouton-liens-accueil {
+    padding: 1vw 2vw;
+    border-radius: 20vw;
+    border: 0.13vw solid #A966D9;
+    color: #A966D9;
+    text-transform: uppercase;
+    font-family: "Raleway Medium", sans-serif;
+    /*border-image: linear-gradient(70deg, rgba(245,152,197,1), rgba(169,102,217,1), rgba(148,182,235,1)) 30;*/
+}
+.bouton-liens-accueil:hover {
+    background-color: #A966D9;
+    color: #0B0B0B;
+}
+.lien-a-propos {
+    margin-top: 2vw;
+}
+
+.button-header,
+.button-footer,
+.button-envoyer {
+    padding: 1vw 1.4vw;
+    border: 0.1vw solid #A966D9;
+    border-radius: 0.3vw;
+    font-family: "Raleway Medium", sans-serif;
+}
+
+
+h5 {
+    color: #A966D9;
+}
+
+h6, p, a {
+    color: #E9E9E9;
+}
+
+
+
+/* Typo */
+
+
+h1, h2, h3, h4 {
+    font-family: Megrim, cursive;
+    font-weight: normal;
+    line-height: 150%;
+}
+h5, h6 {
+    font-family: "Raleway Light", sans-serif;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 7.3vw;
+}
+h1>span {
+    font-size: 15.5vw;
+}
+.accueil-intro h1 {
+    padding-top: 50px;
+}
+.main-projets h1 {
+    font-size: 9.9vw;
+}
+.proj-type-intro h1 {
+    font-size: 4.6vw;
+}
+
+h2 {
+    font-size: 3.6vw;
+}
+
+h3 {
+    font-size: 3vw;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+h5, h6 {
+    font-size: 1.45vw;
+}
+
+h1, h2, h3, h4, h6, .footer-nav li, button a, header a {
+    text-transform: uppercase;
+}
+
+p, a {
+    font-family: "Raleway Light", sans-serif;
+    font-size: 1.2vw;
+    line-height: 150%;
+}
+
+header a {
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

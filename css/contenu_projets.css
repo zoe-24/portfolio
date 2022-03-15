@@ -1,0 +1,90 @@
+.proj-intro img {
+    width: 70%;
+    /*float: right;*/
+    position: absolute;
+    top: -5vw;
+    right: 5vw;
+    z-index: -1;
+}
+
+h1 {
+    position: relative;
+    margin-left: 13vw;
+    margin-bottom: 3vw;
+}
+.proj-intro p {
+    position: relative;
+    margin-left: 13vw;
+    width: 33vw;
+}
+
+
+
+
+.lien-proj-zone-1, .lien-proj-zone-2, .lien-proj-zone-3 {
+    display: flex;
+}
+.lien-proj-zone-1 {
+    position: relative;
+    margin-left: 13vw;
+    margin-top: 14vw;
+}
+.lien-proj-zone-1 img,
+.lien-proj-zone-2 img,
+.lien-proj-zone-3 img,
+.lien-vacataires,
+.lien-adele,
+.lien-baguettes,
+.lien-shawn,
+.lien-bugdays,
+.lien-artspotting {
+    width: 30vw;
+}
+.lien-proj-zone-2, .lien-proj-zone-3 {
+    position: relative;
+    margin-left: 13vw;
+}
+.lien-vacataires, .lien-baguettes, .lien-bugdays {
+    margin-right: 13vw;
+}
+.lien-adele,
+.lien-shawn,
+.lien-artspotting {
+    margin-top: 12vw;
+}
+h4 {
+    margin-top: 1.5vw;
+}
+.lien-proj-zone-1 h4,
+.lien-proj-zone-1 p,
+.lien-proj-zone-2 h4,
+.lien-proj-zone-2 p,
+.lien-proj-zone-3 h4,
+.lien-proj-zone-3 p {
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+}
+.lien-proj-zone-2, .lien-proj-zone-3 {
+    margin-top: -5vw;
+}
+.wrap-3 {
+    position: absolute;
+    width: 46vw;
+    left: -10vw;
+}
+
+
+
+footer {
+    position: relative;
+    margin-top: 6vw;
+}
+
+
+
+.lien-proj-zone-1 img:hover,
+.lien-proj-zone-2 img:hover,
+.lien-proj-zone-3 img:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}

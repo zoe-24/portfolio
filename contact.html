@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/logo_zoe_louyot.png" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/typo_couleur.css">
+    <link rel="stylesheet" href="css/contenu_a_propos_contact.css">
+    <title>Contactez-moi !</title>
+</head>
+<body class="body-contact">
+
+<header>
+
+    <nav>
+        <a href="index.html"><img src="img/logo_zoe_louyot.png" alt=""></a>
+        <ul>
+            <li><a href="index.html" class="nav-accueil">Accueil</a></li>
+            <li><a href="projets.html" class="nav-projets">Projets</a></li>
+            <li><a href="a_propos.html" class="nav-a-propos">À propos</a></li>
+        </ul>
+        <!--<button class="button-header"><a href="contact.html">Me contacter</a></button>-->
+        <a href="contact.html" class="button-header">Me contacter</a>
+    </nav>
+
+</header>
+
+
+
+<main class="main-contact">
+
+    <div class="main-1">
+
+        <div class="main-2">
+
+            <div class="contact-intro">
+                <h1>Contactez-moi !</h1>
+            </div>
+
+            <div class="infos-contact">
+                <div class="mail">
+                    <h5>Adresse e-mail</h5>
+                    <a href="mailto:zoe.louyot24@gmail.com">zoe.louyot24@gmail.com</a>
+                </div>
+                <div class="tel">
+                    <h5>Téléphone</h5>
+                    <p>+33 6 43 47 96 36</p>
+                </div>
+                <div class="rs">
+                    <h5>Réseaux sociaux</h5>
+                    <a href="https://www.instagram.com/_zooe_24/"><img src="img/instagram.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/zo%C3%A9-louyot-3ba75a1bb"><img src="img/linkedin.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="texte-contact">
+                <img src="img/contact/contact_01_doc.png" alt="">
+                <p>Vous avez des questions ou un projet à réaliser ? Prenez contact avec moi via le formulaire
+                    ci-dessous, et nous discuterons de la manière d'accéder à votre demande.</p>
+            </div>
+
+            <div class="formulaire">
+                <form action="php/mail.php" method="post">
+                    <ul>
+                        <div>
+                            <li>
+
+                                <input type="text" value="Nom et prénom"
+                                       id="name" name="user_name">
+                            </li>
+                            <li>
+
+                                <input type="email" value="Adresse e-mail"
+                                       id="mail" name="user_email">
+                            </li>
+                        </div>
+                        <li>
+
+                            <input type="text" value="Objet de votre message"
+                                   id="object" name="user_object">
+                        </li>
+                        <li>
+                            <label for="msg">Votre message :</label><br>
+                            <textarea id="msg" name="user_message">Saisissez votre message</textarea>
+                        </li>
+                        <li class="button">
+                            <button class="button-envoyer" type="submit">Envoyer</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+
+<footer>
+
+    <div class="footer-nav">
+        <h6>Navigation</h6>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="a_propos.html">À propos</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-coordonnées">
+        <h6>Coordonnées</h6>
+        <p>+33 6 43 47 96 36</p>
+        <a href="mailto:zoe.louyot24@gmail.com">zoe.louyot24@gmail.com</a>
+    </div>
+
+    <div class="footer-logo">
+        <img src="img/logo_zoe_louyot.png" alt="">
+    </div>
+
+    <div class="footer-contact">
+        <!--<button class="button-footer"><a href="contact.html">Me contacter</a></button>-->
+        <a href="contact.html" class="button-footer">Me contacter</a>
+        <div class="reseaux-sociaux">
+            <a href="https://www.instagram.com/_zooe_24/"><img src="img/instagram.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/zo%C3%A9-louyot-3ba75a1bb"><img src="img/linkedin.png" alt=""></a>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
